@@ -12,19 +12,7 @@ A connected command center for automotive dealers that tracks vehicles through t
 
 ## Quick Start
 
-### 1. Environment Setup
-
-Create a `.env.local` file in the root directory:
-
-```env
-NEXT_PUBLIC_SUPABASE_URL=your_supabase_url
-NEXT_PUBLIC_SUPABASE_ANON_KEY=your_supabase_anon_key
-SUPABASE_SERVICE_ROLE_KEY=your_supabase_service_role_key
-UNSPLASH_ACCESS_KEY=optional
-PEXELS_API_KEY=optional
-```
-
-### 2. Database Setup
+### 1. Database Setup
 
 Apply the database schema:
 
@@ -32,7 +20,7 @@ Apply the database schema:
 npm run schema
 ```
 
-### 3. Generate Synthetic Data
+### 2. Generate Synthetic Data
 
 Create realistic test data:
 
@@ -40,7 +28,7 @@ Create realistic test data:
 npm run gen:synthetic
 ```
 
-### 4. Seed Database
+### 3. Seed Database
 
 Load the synthetic data into Supabase:
 
@@ -48,7 +36,7 @@ Load the synthetic data into Supabase:
 npm run seed
 ```
 
-### 5. Start Development Server
+### 4. Start Development Server
 
 ```bash
 npm run dev
