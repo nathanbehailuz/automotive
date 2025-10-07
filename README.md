@@ -1,4 +1,4 @@
-# Dealer Hub
+# Auto Manager
 
 A connected command center for automotive dealers that tracks vehicles through the entire pipeline from acquisition to funding, with real-time status monitoring and vendor coordination.
 
@@ -174,13 +174,6 @@ The synthetic data generator creates realistic vehicle timelines:
 - **Deal**: 1-5 days after listing goes live
 - **Funding**: 0-3 days after deal signed
 
-## Development Notes
-
-- No Zod or runtime validation libraries used (as per requirements)
-- Manual query parameter parsing with proper error handling
-- Idempotent seeding (safe to re-run)
-- Batch processing for large datasets
-- Proper error handling and logging
 
 ## Next Steps (Future Weeks)
 
